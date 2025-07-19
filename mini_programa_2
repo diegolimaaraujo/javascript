@@ -1,0 +1,91 @@
+// Agora vamos tentar ampliar o uso das variáveis considerando uma soma de valores básica
+
+// Vamos criar um exemplo básico que utilizei com meus alunos
+// A ideia desse mini programa era que eles inserissem os livros que eles leram na biblioteca
+// Dessa forma, montei uma estrutura geral em que eles pudessem manipular o código apenas para PERSONALIZAR com os livros que eles leram
+// Podendo, claro, consultar os dados técnicos das obras online > ou inventar alguns dados apenas para critério de exemplo
+
+// ============================================================
+// File:         mini_programa_2
+// Author:       Diego Lima Araujo
+// GitHub:       https://github.com/diegolimaaraujo/javascript/mini_programa_2
+// Created on:   2025-07-19
+// Last update:  2025-07-19
+// Description:  Este script demonstra um exemplo básico de uso
+//               de elementos em JavaScript construindo um mini programa rudimentar
+//
+// Language:     JavaScript
+//
+// ============================================================
+
+// Iniciaremos esse programa com o título identificador básico
+
+console.log("APLICATIVO DO DIA MUNDIAL DO LIVRO");
+console.log(" ");
+
+// Depois que criei esse modelo, vi que ele podia ter como nome – o termo LIVRARIA, mas ficou com esse nome de homenagem mesmo à semana de criação
+
+let livro1 = "A insustentável leveza do ser";
+let autorLivro1 = "Milan Kundera";
+let anoLivro1 = "1984";
+let vendasLivro12022 = 237;
+let vendasLivro12023 = 370;
+let vendasLivro12024 = 107;
+let a = vendasLivro12022;
+let b = vendasLivro12023;
+let c = vendasLivro12024;
+
+let totalLivro1 = a + b + c;
+
+console.log("LIVRO 1");
+console.log(" ");
+
+console.log(livro1);
+console.log(autorLivro1);
+console.log(anoLivro1);
+console.log("Vendidos em 2022: ", vendasLivro12022);
+console.log("Vendidos em 2023: ", vendasLivro12023);
+console.log("Vendidos em 2024: ", vendasLivro12024);
+
+console.log(" ");
+
+console.log("Total de Vendas:", totalLivro1);
+
+console.log("");
+
+console.log("===============================div==================================");
+console.log(" ");
+
+
+let livro2 = "Ensaio sobre a cegueira";
+let autorLivro2 = "José Saramago";
+let anoLivro2 = "1995";
+let vendasLivro22022 = 427;
+let vendasLivro22023 = 570;
+let vendasLivro22024 = 207;
+a = vendasLivro22022;
+b = vendasLivro22023;
+c = vendasLivro22024;
+
+let totalLivro2 = a + b + c;
+
+console.log("LIVRO 2");
+console.log(" ");
+
+console.log(livro2);
+console.log(autorLivro2);
+console.log(anoLivro2);
+console.log("Vendidos em 2022: ", vendasLivro22022);
+console.log("Vendidos em 2023: ", vendasLivro22023);
+console.log("Vendidos em 2024: ", vendasLivro22024);
+
+
+console.log(" ");
+
+console.log("Total de Vendas:", totalLivro2);
+
+console.log(" ");
+
+console.log("===============================div==================================");
+
+// O miniprograma poderia seguir desta forma indefinidamente, dependendo dos livros que eles desejassem registrar
