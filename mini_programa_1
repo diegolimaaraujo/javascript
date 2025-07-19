@@ -1,0 +1,85 @@
+// Com apenas a estrutura que utilizamos no arquivo "basics" é possível estruturar diversos pequenos programas que:
+// 1 -> Guardam informações e 2 -> Mostram as informações na tela
+
+// ============================================================
+// File:         mini_programa_1
+// Author:       Diego Lima Araujo
+// GitHub:       https://github.com/diegolimaaraujo/javascript/mini_programa_1
+// Created on:   2025-07-18
+// Last update:  2025-07-18
+// Description:  Este script demonstra um exemplo básico de uso
+//               de elementos fundamentais em Python
+//
+// Language:     javascript
+//
+// ============================================================
+
+
+// Vamos começar criando um Título para esse mini-programa, portanto fique em destaque no topo do programa
+
+console.log("MINI PROGRAMA de BALLET EM JAVASCRIPT")
+console.log(" ") // Espaçamento básico
+
+// Agora vamos inserir as variáveis e seus conteúdos em sequência
+
+let movimentoBallet1 = "Plié";
+
+let movimentoBallet2 = "Tendu";
+
+let movimentoBallet3 = "Jeté";
+
+let movimentoBallet4 = "Fondu";
+
+let movimentoBallet5 = "Frappé";
+
+let movimentoBallet6 = "Adágio";
+
+let movimentoBallet7 = "Grand Battement";
+
+console.log(" "); // Espaçamento básico
+
+// Agora vamos criar os canais de exibição dessas variáveis
+
+
+console.log("Listagem dos movimentos básicos:");
+console.log(" "); // Espaçamento básico
+
+console.log(movimentoBallet1);
+
+console.log(movimentoBallet2);
+
+console.log(movimentoBallet3);
+
+console.log(movimentoBallet4);
+
+console.log(movimentoBallet5);
+
+console.log(movimentoBallet6);
+
+console.log(movimentoBallet7);
+
+
+console.log(" ") // Espaçamento básico
+
+// Para fortalecer ainda mais esse código, podemos inserir um indicador de numeração externo, dentro do PRINT
+
+
+console.log("====================div=========================="); // Sugestão de divisória
+console.log(" ");
+
+console.log("Listagem dos movimentos ENUMERADA:");
+console.log(" "); // Espaçamento básico
+
+console.log("1º ", movimentoBallet1);
+
+console.log("2º ", movimentoBallet2);
+
+console.log("3º ", movimentoBallet3);
+
+console.log("4º ", movimentoBallet4);
+
+console.log("5º ", movimentoBallet5);
+
+console.log("6º ", movimentoBallet6);
+
+console.log("7º ", movimentoBallet7);
