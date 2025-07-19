@@ -1,0 +1,55 @@
+// Criação básica de variáveis (formatei com base no meu BASICS em PYTHON)
+
+// A CRIAÇÃO em JS das VARIÁVEIS exigirá o uso dos comandos LET ou CONST
+
+// As variáveis são como caixas de informações – o nome delas é como a etiqueta colada em uma caixa, enquanto o que for colocado após o símbolo de igual (=) será as coisas dentro da caixa
+
+
+let numero = 77 ; 
+
+// Números não precisam de aspas antes e depois
+
+
+const stringA = "setenta e sete" ;
+let stringB = "palavra qualquer" ;
+
+// Strings (palavras/textos) precisam de aspas antes e depois
+
+
+const outraVariavel = numero ;
+// Quando colocamos uma variável dentro de outra variável, também não precisamos de aspas antes e depois
+
+
+// Observação: Para mudar as coisas dentro dessas caixas de informação, basta você adicionar novos conteúdos nela – conforme o exemplo:
+
+let stringB = "palavra qualquer";   //  Conteúdo anterior
+
+stringB = "nova palavra";     // Novo conteúdo (modificado) > não é necessário usar LET novamente
+
+
+
+# Observação 2: Em Python usamos ( _ ) snakecase quando desejamos dar a uma variável um nome composto. Nos exemplos acima, temos isso ocorrendo em string_a e string_b
+
+
+
+# Exibição de informações na tela
+
+
+
+print("No caso das strings, seguimos o padrão com as aspas de ambos os lados")
+
+print(77) # Já os números, podem ser inseridos diretamente
+
+print(string_a) # No caso de outras variáveis, basta escrevê-las diretamente também
+
+
+
+# Os RESULTADOS EM TELA ficariam como segue (excluindo o uso da " # " )
+
+
+
+# No caso das strings, seguimos o padrão com as aspas de ambos os lados
+
+# 77
+
+# Setenta e sete
