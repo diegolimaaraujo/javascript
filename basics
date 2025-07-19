@@ -28,28 +28,30 @@ stringB = "nova palavra";     // Novo conteúdo (modificado) > não é necessár
 
 
 
-# Observação 2: Em Python usamos ( _ ) snakecase quando desejamos dar a uma variável um nome composto. Nos exemplos acima, temos isso ocorrendo em string_a e string_b
+// Observação 2: Em JavaScript usamos ( aA ) camelCase quando desejamos dar a uma variável um nome composto. Nos exemplos acima, temos isso ocorrendo em stringA e stringB
+
+// Observação 3: Finalizamos cada linha com o uso de ( ; ) – padrão em JavaScript
 
 
 
-# Exibição de informações na tela
+// Exibição de informações na tela
 
 
 
-print("No caso das strings, seguimos o padrão com as aspas de ambos os lados")
+console.log("No caso das strings, seguimos o padrão com as aspas de ambos os lados");
 
-print(77) # Já os números, podem ser inseridos diretamente
+console.log(77); // Já os números, podem ser inseridos diretamente
 
-print(string_a) # No caso de outras variáveis, basta escrevê-las diretamente também
-
-
-
-# Os RESULTADOS EM TELA ficariam como segue (excluindo o uso da " # " )
+console.log(stringA); // No caso de outras variáveis, basta escrevê-las diretamente também
 
 
 
-# No caso das strings, seguimos o padrão com as aspas de ambos os lados
+// Os RESULTADOS EM TELA ficariam como segue (excluindo o uso da " // " ):
 
-# 77
 
-# Setenta e sete
+
+// No caso das strings, seguimos o padrão com as aspas de ambos os lados
+
+// 77
+
+// Setenta e sete
