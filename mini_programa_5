@@ -1,0 +1,32 @@
+// Nesse programa, a ideia principal é simular botões em um possível app de LOJA:
+
+console.log("--------------------------TELA 1--------------------------");
+console.log("APLICATIVO DA LOJA X"); // Título do aplicativo > VERSÃO LOJA / CATÁLOGO
+console.log(" ");
+
+// Elementos da tela.
+
+const prompt = "Recursos dos botões";
+const Botaot1 = "ACESSE"; // Esse item muda de acordo com o que o usuário clicar. 
+console.log("O botão clicado foi: ", Botaot1);
+console.log(" "); // Espaçamento
+
+// Botões e o que abrem na tela
+
+if (Botaot1 === "ACESSE"){
+    console.log("> TELA DE ESCOLHA DE ITENS:");
+    console.log(" "); // Espaçamento 
+    console.log("- ITEM PARA COMPRA 1 : ");
+    console.log("- ITEM PARA COMPRA 2 : ");
+    console.log("- ITEM PARA COMPRA 3 : ");
+} else if (Botaot1 === "ASSINATURAS"){
+    console.log(" "); // Espaçamento 
+    console.log("- PLANO PLUS");
+    console.log("- PLANO MEGA");
+    console.log("- PLANO ULTRA");
+} else{
+    Console.log("Tela Parada"); // O usuário não clicou em nenhum botão.
+}
+console.log("--------------------------TELA 2--------------------------");
+
+// O resultado final – por contemplar as condicionais IF/ELSE simula uma interatividade > ainda que não corresponda à codificação exata desses itens (usando comandos menos rudimentares – e mais ajustados ao objetivo de navegação entre telas)
