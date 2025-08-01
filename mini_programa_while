@@ -1,0 +1,24 @@
+// Criamos uma lista de Itens com valores de palavras (strings) 
+// - utilizando a linguagem JavaScript
+// Para criar uma listagem, é necessário usar [] antes e depois da sequência 
+// de itens desejada – usando vírgulas entre cada um dos itens
+
+const palavras = [
+    "Programa Básico",
+    "Programa de Variáveis",
+    "Programa de Condicionais",
+    "Programa de Simulação de App",
+    "Programa com uso de While"
+];
+
+// Inicializamos o índice com 2 > o que vai corresponder ao item 3 da listagem 
+// (já que o item 0 corresponde ao item 1 da listagem sempre):
+
+let indice = 2;
+
+// O laço WHILE executa enquanto o índice for menor que o tamanho da lista 
+// (que, por conter 5 itens – pode ser consultada usando os números 0,1,2,3 e 4)
+
+while (indice < palavras.length) {
+  console.log(`Recurso Disponível: ${palavras[indice]}`);  // Exibe a palavra atual
+  indice += 1;  // Incrementa o índice a cada iteração
