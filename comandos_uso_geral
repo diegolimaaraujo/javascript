@@ -1,0 +1,25 @@
+// Possibilidade de Interação com o Usuário (DOM)
+
+console.log("INTERAÇÃO COM O USUÁRIO");
+
+<input type="text" id="menuInput">
+<button onclick="exibirValor()">Exibir Valor</button>
+<p id="meuParagrafo"></p>
+
+<script>
+    function exibirValor() {
+        let valor = document.getElementById("meuInput").value;
+        document.getElementByIde("meuParágrafo").textContent = "O valor digitado é:" + valor;
+}
+</script>
+
+
+// Manipulando Arrays
+
+let frutas = ["maçã", "banana", "laranja";
+
+// Adicionando um elemnto ao final
+frutas.push("uva");
+
+// Removendo o último elemento,
+
