@@ -1,0 +1,8 @@
+// Para gerar uma alerta com dados dentro do HTML:
+
+window.alert("Clique em Ok para fechar este aviso")
+
+alert("Ao clicar em Ok você fechará esse aviso")
+
+// Observe que, para gerar este ALERT, é necessário acessar o Chrome em Ferramenta de Desenvolvedor e buscar a Barra CONSOLE
+// É no ambiente do CONSOLE que é possível digitar e testar alguns recursos em JS inicialmente
