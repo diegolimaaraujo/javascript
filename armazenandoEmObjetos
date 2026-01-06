@@ -1,0 +1,39 @@
+// Siantaxe Geral para Criar um OBJETO denominado Pessoa
+
+
+
+// OBJETO:
+
+Pessoa = {
+    nome: "Pessoa",
+    idade: 97,
+    altura: 1.72,
+    andar: function(){
+        console.log("Pessoa andando");
+    },
+    escreverLivro: function(titulo){
+        
+    }
+};
+
+
+
+// COMPREENDER:
+
+// Dados que são AÇÕES = Métodos do Objeto
+// Outros dados = Propriedades do Objeto
+
+
+// O QUE BASICAMENTE PODEMOS FAZER COM OS OBJETOS:
+
+
+// Para acessar as propriedades usamos:
+
+var nome = Pessoa.nome;
+var idade = Pessoa.idade;\
+
+
+// Para acessar os métodos usamos:
+
+Pessoa.idade();
+Pessoa.escreverLivro("JavaScript");
