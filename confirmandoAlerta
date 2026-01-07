@@ -1,0 +1,10 @@
+// (Método CONFIRM) Caixa com alternativa OK e CANCELA:
+
+var confirma = confirm('Você tem certeza que quer apagar o arquivo? Essa Operação não poderá ser desfeita.');
+    if (confirma == true) {
+    console.log("O botão OK foi clicado");
+    } else{
+    console.log("O botão CANCELAR foi clicado");
+}
+
+// O retorno explicativo do botão clicado ocorre no CONSOLE do Navegador
